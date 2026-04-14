@@ -23,4 +23,8 @@ public class JwtProperties {
     private long userTtl;
     private String userTokenName;
 
+    public String getAdminTokenName() {
+        return adminTokenName;
+    }
+
 }
